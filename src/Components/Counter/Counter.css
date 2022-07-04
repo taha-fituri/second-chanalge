@@ -1,0 +1,27 @@
+i {
+  font-size: 48px;
+  color: rgb(3, 229, 3);
+  cursor: pointer;
+}
+h2 {
+  color: white !important;
+  font-family: "Brush Script MT", cursive;
+  font-size: x-large;
+}
+.counterbuttons {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.btn {
+  width: 15%;
+}
+.countdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 0;
+  width: 300px;
+  height: 250px;
+}
