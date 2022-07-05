@@ -35,7 +35,11 @@ class App extends React.Component {
             ></i>
           </div>
         </div>
-        <Button variant="outline-warning" onClick={this.countreset}>
+        <Button
+          style={{ width: "80px" }}
+          variant="outline-warning"
+          onClick={this.countreset}
+        >
           Reset
         </Button>{" "}
       </>
